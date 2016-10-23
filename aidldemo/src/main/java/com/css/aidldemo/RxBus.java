@@ -9,7 +9,7 @@ import rx.subjects.Subject;
  * Created by hexiaohong on 16/8/3.
  */
 public final class RxBus {
-//123123123
+//123123123jjjjj11```````````
     private static RxBus mInstance;
 
     public static RxBus getInstance() {
