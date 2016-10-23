@@ -13,6 +13,8 @@ public final class RxBus {
 
 
     ///////55555555555555555
+
+    //666666
     private static RxBus mInstance;
 
     public static RxBus getInstance() {
