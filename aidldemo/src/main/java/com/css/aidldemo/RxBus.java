@@ -21,6 +21,8 @@ public final class RxBus {
     //8
 
     //9
+
+    //10
     private static RxBus mInstance;
 
     public static RxBus getInstance() {
