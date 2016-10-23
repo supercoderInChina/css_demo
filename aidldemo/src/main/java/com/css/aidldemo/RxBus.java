@@ -10,6 +10,9 @@ import rx.subjects.Subject;
  */
 public final class RxBus {
 //123123123jjjjj11```````````
+
+
+    ///////55555555555555555
     private static RxBus mInstance;
 
     public static RxBus getInstance() {
