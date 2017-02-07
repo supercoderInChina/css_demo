@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res"/><source path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/build/generated/res/rs/debug"/><source path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/debug/res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res"><file name="checkbox_iphone" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable/checkbox_iphone.xml" qualifiers="" type="drawable"/><file name="ios7_btn" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable/ios7_btn.xml" qualifiers="" type="drawable"/><file name="switch_btn" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable/switch_btn.xml" qualifiers="" type="drawable"/><file name="toggle_btn" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable/toggle_btn.xml" qualifiers="" type="drawable"/><file name="checkbox_off" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-hdpi/checkbox_off.png" qualifiers="hdpi-v4" type="drawable"/><file name="checkbox_on" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-hdpi/checkbox_on.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ios7_switch_off" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-hdpi/ios7_switch_off.png" qualifiers="hdpi-v4" type="drawable"/><file name="ios7_switch_on" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-hdpi/ios7_switch_on.png" qualifiers="hdpi-v4" type="drawable"/><file name="switch_btn_off" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-hdpi/switch_btn_off.png" qualifiers="hdpi-v4" type="drawable"/><file name="switch_btn_on" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-hdpi/switch_btn_on.png" qualifiers="hdpi-v4" type="drawable"/><file name="switch_btn_slipper" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-hdpi/switch_btn_slipper.png" qualifiers="hdpi-v4" type="drawable"/><file name="toggle_btn_checked" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-hdpi/toggle_btn_checked.png" qualifiers="hdpi-v4" type="drawable"/><file name="toggle_btn_unchecked" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-hdpi/toggle_btn_unchecked.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="checkswitch_bottom" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-xhdpi/checkswitch_bottom.png" qualifiers="xhdpi-v4" type="drawable"/><file name="checkswitch_btn_pressed" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-xhdpi/checkswitch_btn_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="checkswitch_btn_unpressed" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-xhdpi/checkswitch_btn_unpressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="checkswitch_frame" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-xhdpi/checkswitch_frame.png" qualifiers="xhdpi-v4" type="drawable"/><file name="checkswitch_mask" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-xhdpi/checkswitch_mask.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-xhdpi/ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/drawable-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="main" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/layout/main.xml" qualifiers="" type="layout"/><file name="main" path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/menu/main.xml" qualifiers="" type="menu"/><file path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/values/attrs.xml" qualifiers=""><attr format="reference" name="ptrDrawable"/><attr format="dimension" name="gfMinHSpacing"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="searchViewVoiceIcon"/><attr format="reference" name="accountAccountBindLine"/><attr format="reference" name="searchViewAutoCompleteTextView"/><attr format="dimension" name="searchResultListItemHeight"/><attr format="color" name="accountAccountActionColor"/><attr name="ptrAnimationStyle">
+        <flag name="rotate" value="0x00000000"/>
+        <flag name="flip" value="0x00000001"/>
+    </attr><attr format="reference" name="actionBarTabBarStyle"/><attr format="dimension" name="gfVSpacing"/><attr format="string" name="actionViewClass"/><attr format="dimension" name="shadowWidth"/><attr format="reference" name="searchViewGoIcon"/><attr format="reference" name="actionMenuTextAppearance"/><attr format="reference" name="actionModeShareDrawable"/><attr format="boolean" name="allowSingleTap"/><attr format="dimension" name="columnWidth"/><attr format="reference" name="customNavigationLayout"/><attr format="reference" name="actionBarTabTextStyle"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr format="reference" name="actionModeSplitBackground"/><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="itemPadding"/><attr format="reference" name="actionBarStyle"/><attr format="reference" name="actionModeStyle"/><attr format="boolean" name="selectorEnabled"/><attr format="reference|color" name="sweeping_color"/><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="divider"/><attr format="reference" name="actionModeFindDrawable"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr format="color" name="accountAccountNameColor"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference" name="dropDownListViewStyle"/><attr name="touchModeBehind">
+        <enum name="margin" value="0"/>
+        <enum name="fullscreen" value="1"/>
+    </attr><attr format="dimension" name="maxHeight"/><attr format="reference" name="socialHomepageBg"/><attr format="reference" name="actionBarTabStyle"/><attr format="dimension" name="listPreferredItemHeight"/><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="accountCellEnd"/><attr format="dimension" name="progressBarPadding"/><attr format="reference" name="searchViewTextFieldRight"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="reference" name="searchViewCloseIcon"/><attr format="reference" name="textAppearanceListItem"/><attr format="reference" name="accountCellMiddle"/><attr format="reference" name="actionModeBackground"/><attr format="reference" name="icon"/><attr format="string" name="subtitle"/><attr format="reference" name="actionBarWidgetTheme"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="string" name="queryHint"/><attr format="reference" name="accountItemNameColor"/><attr format="dimension" name="vSpacing"/><attr format="reference" name="homeLayout"/><attr format="reference" name="prompt"/><attr name="showDividers">
+        <flag name="none" value="0x00000000"/>
+        <flag name="beginning" value="0x00000001"/>
+        <flag name="middle" value="0x00000002"/>
+        <flag name="end" value="0x00000004"/>
+    </attr><attr format="string" name="actionProviderClass"/><attr format="reference" name="actionModeCutDrawable"/><attr format="reference" name="spinnerDropDownItemStyle"/><attr format="reference" name="panelMenuListTheme"/><attr format="boolean" name="disableChildrenWhenDisabled"/><attr format="boolean" name="iconifiedByDefault"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="listPreferredItemHeightLarge"/><attr format="reference" name="listChoiceBackgroundIndicator"/><attr format="reference" name="searchViewEditQuery"/><attr format="reference" name="popupPromptView"/><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference" name="actionModeCloseDrawable"/><attr format="reference" name="accountCellSole"/><attr format="dimension" name="gfColumnWidth"/><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference" name="ptrDrawableEnd"/><attr format="boolean" name="animateOnClick"/><attr name="displayOptions">
+        <flag name="useLogo" value="0x00000001"/>
+        <flag name="showHome" value="0x00000002"/>
+        <flag name="homeAsUp" value="0x00000004"/>
+        <flag name="showTitle" value="0x00000008"/>
+        <flag name="showCustom" value="0x00000010"/>
+        <flag name="disableHome" value="0x00000020"/>
+    </attr><attr format="float" name="behindScrollScale"/><attr format="reference" name="searchViewEditQueryBackground"/><attr format="color" name="accountAccountBindShadow"/><attr format="reference" name="actionModeSelectAllDrawable"/><attr format="reference" name="accountCellHead"/><attr format="boolean" name="isLightTheme"/><attr format="reference" name="listPopupWindowStyle"/><attr format="reference" name="actionDropDownStyle"/><attr format="reference" name="searchViewSearchIcon"/><attr format="boolean" name="windowSplitActionBar"/><attr format="reference" name="handle"/><attr format="reference|color" name="background_color"/><attr format="dimension" name="paddingStart"/><attr format="reference" name="actionModePopupWindowStyle"/><attr format="boolean" name="windowActionBar"/><attr format="reference" name="spinnerStyle"/><attr format="reference" name="searchViewTextField"/><attr name="ptrMode">
+        <flag name="disabled" value="0x00000000"/>
+        <flag name="pullFromStart" value="0x00000001"/>
+        <flag name="pullFromEnd" value="0x00000002"/>
+        <flag name="both" value="0x00000003"/>
+        <flag name="manualOnly" value="0x00000004"/>
+        <flag name="pullDownFromTop" value="0x00000001"/>
+        <flag name="pullUpFromBottom" value="0x00000002"/>
+    </attr><attr format="color" name="accountAccountLogoutColor"/><attr format="dimension" name="paddingEnd"/><attr format="reference" name="actionModeCopyDrawable"/><attr format="reference" name="actionModeWebSearchDrawable"/><attr format="dimension" name="bottomOffset"/><attr format="reference" name="logo"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference" name="viewAbove"/><attr format="color" name="accountAccountBindColor"/><attr format="dimension" name="listPreferredItemPaddingRight"/><attr format="string" name="title"/><attr format="reference" name="textAppearanceLargePopupMenu"/><attr format="dimension" name="dividerPadding"/><attr format="float" name="fadeDegree"/><attr format="dimension" name="actionBarSize"/><attr format="reference" name="dividerHorizontal"/><attr name="mode">
+        <enum name="left" value="0"/>
+        <enum name="right" value="1"/>
+    </attr><attr format="reference" name="ptrDrawableBottom"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/><attr format="dimension" name="topOffset"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="color" name="accountUserDescColor"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference" name="homeAsUpIndicator"/><attr format="reference" name="progressBarStyle"/><attr format="dimension" name="height"/><attr name="spinnerMode">
+        <enum name="dialog" value="0"/>
+        <enum name="dropdown" value="1"/>
+    </attr><attr format="reference" name="textAppearanceSmallPopupMenu"/><attr format="color" name="accountUserNameColor"/><attr name="navigationMode">
+        <enum name="normal" value="0"/>
+        <enum name="listMode" value="1"/>
+        <enum name="tabMode" value="2"/>
+    </attr><attr format="reference" name="subtitleTextStyle"/><attr name="showAsAction">
+        <flag name="never" value="0x00000000"/>
+        <flag name="ifRoom" value="0x00000001"/>
+        <flag name="always" value="0x00000002"/>
+        <flag name="withText" value="0x00000004"/>
+        <flag name="collapseActionView" value="0x00000008"/>
+    </attr><attr format="reference" name="textAppearanceSearchResultSubtitle"/><attr format="reference" name="background"/><attr format="reference" name="selectorDrawable"/><attr format="reference" name="actionButtonStyle"/><attr format="reference" name="actionLayout"/><attr format="dimension" name="maxWidth"/><attr format="dimension" name="diameter"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference|color" name="selected_color"/><attr format="reference" name="dividerVertical"/><attr format="reference" name="actionBarDivider"/><attr format="reference" name="actionModeCloseButtonStyle"/><attr format="dimension" name="jhSpacing"/><attr format="reference" name="searchDropdownBackground"/><attr format="dimension" name="hSpacing"/><attr format="reference" name="actionBarItemBackground"/><attr format="reference" name="textAppearanceListItemSmall"/><attr format="string" name="initialActivityCount"/><attr format="reference" name="selectableItemBackground"/><attr format="dimension" name="listPreferredItemPaddingLeft"/><attr format="reference" name="content"/><attr format="reference" name="actionModePasteDrawable"/><attr format="boolean" name="alignCenter"/><attr format="reference" name="buttonBarButtonStyle"/><attr format="dimension" name="behindOffset"/><attr format="reference" name="titleTextStyle"/><attr format="integer" name="orientation"/><attr format="dimension" name="behindWidth"/><attr format="reference" name="ptrDrawableTop"/><attr name="touchModeAbove">
+        <enum name="margin" value="0"/>
+        <enum name="fullscreen" value="1"/>
+    </attr><attr format="boolean" name="fadeEnabled"/><attr format="reference" name="actionOverflowButtonStyle"/><attr format="reference|color" name="actionMenuTextColor"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="dimension" name="radius"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="popupMenuStyle"/><attr format="reference" name="activityChooserViewStyle"/><attr format="reference" name="textAppearanceSearchResultTitle"/><attr format="reference|color" name="textColorSearchUrl"/><attr format="reference|color" name="unselected_color"/><attr format="reference" name="actionBarSplitStyle"/></file><file path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/values/dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen></file><file path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/values/strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string name="action_settings">Settings</string><string name="app_name">CompoundButtonView</string></file><file path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/values/style_switch.xml" qualifiers=""><string name="switch_off">Off</string><declare-styleable name="SwitchButton">
+
+        
+        <attr format="reference" name="thumb"/>
+        
+        <attr format="reference" name="track"/>
+        
+        <attr format="string" name="textOn"/>
+        
+        <attr format="string" name="textOff"/>
+        
+        <attr format="dimension" name="thumbTextPadding"/>
+        
+        <attr format="reference" name="switchTextAppearance"/>
+        
+        <attr format="dimension" name="switchMinWidth"/>
+        
+        <attr format="dimension" name="switchPadding"/>
+    </declare-styleable><style name="Switch">
+        <item name="track">@drawable/switch_btn</item>
+        <item name="thumb">@drawable/switch_btn_slipper</item>
+        <item name="switchTextAppearance">@android:style/TextAppearance.Small</item>
+        <item name="textOn">@string/switch_on</item>
+        <item name="textOff">@string/switch_off</item>
+        <item name="thumbTextPadding">16dip</item>
+        <item name="switchMinWidth">80dip</item>
+        <item name="switchPadding">10dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#00FFFFFF</item>
+    </style><declare-styleable name="Switch_Style">
+        
+        <attr format="reference" name="switchStyle"/>
+    </declare-styleable><string name="switch_on">On</string><color name="switchtextcolor">#FFFFFF</color><declare-styleable name="TextAppearance">
+        
+        <attr format="reference|color" name="textColor"/>
+        
+        <attr format="dimension" name="textSize"/>
+        
+        <attr name="textStyle">
+            <flag name="normal" value="0"/>
+            <flag name="bold" value="1"/>
+            <flag name="italic" value="2"/>
+        </attr>
+        
+        <attr name="typeface">
+            <enum name="normal" value="0"/>
+            <enum name="sans" value="1"/>
+            <enum name="serif" value="2"/>
+            <enum name="monospace" value="3"/>
+        </attr>
+        
+        <attr format="reference|color" name="textColorHighlight"/>
+        
+        <attr format="reference|color" name="textColorHint"/>
+        
+        <attr format="reference|color" name="textColorLink"/>
+        
+        <attr format="boolean" name="textAllCaps"/>
+    </declare-styleable></file><file path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style></file><file path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/values-sw720dp-land/dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/values-v11/styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        
+    </style></file><file path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/main/res/values-v14/styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        
+    </style></file></source><source path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/build/generated/res/rs/debug"/><source path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="/android/workspace/MyApplication/compoundButtonView自定义控件属性/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="TextAppearance"><attr format="reference|color" name="textColor"/><attr format="dimension" name="textSize"/><attr name="textStyle">
+            <flag name="normal" value="0"/>
+            <flag name="bold" value="1"/>
+            <flag name="italic" value="2"/>
+        </attr><attr name="typeface">
+            <enum name="normal" value="0"/>
+            <enum name="sans" value="1"/>
+            <enum name="serif" value="2"/>
+            <enum name="monospace" value="3"/>
+        </attr><attr format="reference|color" name="textColorHighlight"/><attr format="reference|color" name="textColorHint"/><attr format="reference|color" name="textColorLink"/><attr format="boolean" name="textAllCaps"/></declare-styleable><declare-styleable name="SwitchButton"><attr format="reference" name="thumb"/><attr format="reference" name="track"/><attr format="string" name="textOn"/><attr format="string" name="textOff"/><attr format="dimension" name="thumbTextPadding"/><attr format="reference" name="switchTextAppearance"/><attr format="dimension" name="switchMinWidth"/><attr format="dimension" name="switchPadding"/></declare-styleable><declare-styleable name="Switch_Style"><attr format="reference" name="switchStyle"/></declare-styleable></configuration></mergedItems></merger>

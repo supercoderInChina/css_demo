@@ -1,1 +1,2 @@
-include ':aidldemo', ':mylibrary', ':mylibrary2', ':demo_one', ':Processlibrary'
+include ':demo1', ':demo2', 'swipe'
+include ':compoundButtonView自定义控件属性'
