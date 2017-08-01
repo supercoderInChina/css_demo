@@ -2,7 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/compoundButtonView自定义控件属性/src/main/java/com/example/compoundbuttonview/MainActivity.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/compoundButtonView自定义控件属性/src/main/java/com/example/compoundbuttonview/view/SwitchButton.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/compoundButtonView自定义控件属性/src/main/java/com/example/compoundbuttonview/view/CheckSwitchButton.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/compoundButtonView自定义控件属性/src/main/java/com/example/compoundbuttonview/view/SwitchButton.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

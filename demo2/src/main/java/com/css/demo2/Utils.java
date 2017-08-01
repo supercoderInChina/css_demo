@@ -1,6 +1,5 @@
-package com.css.demo1;
+package com.css.demo2;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -8,25 +7,23 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.graphics.Point;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Handler;
 import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
+import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.Display;
+import android.view.WindowManager;
 import android.webkit.CookieManager;
 import android.webkit.CookieSyncManager;
 
+import java.io.DataOutputStream;
+import java.io.File;
 import java.lang.reflect.Method;
 import java.security.MessageDigest;
-import java.util.ArrayList;
 import java.util.List;
-
-import rx.Observable;
-import rx.functions.Action1;
-import rx.functions.Func1;
 
 /**
  * @author chenshaosheng E-mail:ex-chenshaosheng001@pingan.com.cn
@@ -204,50 +201,6 @@ public class Utils {
         }
     }
 
-    public static void rxjava() {
-
-        //        Observable.just("one", "two")
-        //                .map(new Func1<String, String>() {
-        //                    @Override
-        //                    public String call(String s) {
-        //                        return s + "~~~";
-        //                    }
-        //                })
-        //                .subscribe(new Action1<String>() {
-        //                    @Override
-        //                    public void call(String s) {
-        //                        Log.d("jkcss", s);
-        //                    }
-        //                });
-
-
-        ArrayList a = new ArrayList();
-
-        ArrayList b = new ArrayList();
-        ArrayList c = new ArrayList();
-        a.add(b);
-        a.add(c);
-        b.add("b1");
-        c.add("c1");
-
-
-        Observable.from(a)
-                .flatMap(new Func1<ArrayList, Observable<Object>>() {
-                    @Override
-                    public Observable<Object> call(ArrayList s) {
-                        return Observable.just(s.get(0));
-                    }
-                }).subscribe(new Action1<Object>() {
-            @Override
-            public void call(Object s) {
-                Log.d("jkcss", s + "");
-            }
-        });
-    }
-
-    public static void getmd5(Context mContext) {
-        Log.d("jkcss", "getPackageSign:" + getPackageSign(mContext));
-    }
 
 
     public static String getPackageSign(Context mContext) {
@@ -305,68 +258,79 @@ public class Utils {
         return ang;
         }
 
-    public static String GetNetworkType(Activity activity)
-    {
-        String strNetworkType = "";
+    /**获取虚拟功能键高度 */
+    public static int getVirtualBarHeigh(Context context) {
+        int vh = 0;
+        WindowManager windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+        Display display = windowManager.getDefaultDisplay();
+        DisplayMetrics dm = new DisplayMetrics();
+        try {
+            @SuppressWarnings("rawtypes")
+            Class c = Class.forName("android.view.Display");
+            @SuppressWarnings("unchecked")
+            Method method = c.getMethod("getRealMetrics", DisplayMetrics.class);
+            method.invoke(display, dm);
+            vh = dm.heightPixels - windowManager.getDefaultDisplay().getHeight();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return vh;
+    }
 
-        ConnectivityManager cm = (ConnectivityManager) activity.getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo networkInfo = cm.getActiveNetworkInfo();
-        if (networkInfo != null && networkInfo.isConnected())
-        {
-            if (networkInfo.getType() == ConnectivityManager.TYPE_WIFI)
-            {
-                strNetworkType = "WIFI";
+    public static void getimsi(Context context){
+        TelephonyManager telephonyManager = (TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
+    }
+
+    public static boolean isRoot() {
+
+        boolean root = false;
+
+        try {
+            if ((!new File("/system/bin/su").exists())
+                    && (!new File("/system/xbin/su").exists())) {
+                root = false;
+            } else {
+                root = true;
             }
-            else if (networkInfo.getType() == ConnectivityManager.TYPE_MOBILE)
-            {
-                String _strSubTypeName = networkInfo.getSubtypeName();
 
-                Log.e("cocos2d-x", "Network getSubtypeName : " + _strSubTypeName);
+        } catch (Exception e) {
+        }
 
-                // TD-SCDMA   networkType is 17
-                int networkType = networkInfo.getSubtype();
-                switch (networkType) {
-                    case TelephonyManager.NETWORK_TYPE_GPRS:
-                    case TelephonyManager.NETWORK_TYPE_EDGE:
-                    case TelephonyManager.NETWORK_TYPE_CDMA:
-                    case TelephonyManager.NETWORK_TYPE_1xRTT:
-                    case TelephonyManager.NETWORK_TYPE_IDEN: //api<8 : replace by 11
-                        strNetworkType = "2G";
-                        break;
-                    case TelephonyManager.NETWORK_TYPE_UMTS:
-                    case TelephonyManager.NETWORK_TYPE_EVDO_0:
-                    case TelephonyManager.NETWORK_TYPE_EVDO_A:
-                    case TelephonyManager.NETWORK_TYPE_HSDPA:
-                    case TelephonyManager.NETWORK_TYPE_HSUPA:
-                    case TelephonyManager.NETWORK_TYPE_HSPA:
-                    case TelephonyManager.NETWORK_TYPE_EVDO_B: //api<9 : replace by 14
-                    case TelephonyManager.NETWORK_TYPE_EHRPD:  //api<11 : replace by 12
-                    case TelephonyManager.NETWORK_TYPE_HSPAP:  //api<13 : replace by 15
-                        strNetworkType = "3G";
-                        break;
-                    case TelephonyManager.NETWORK_TYPE_LTE:    //api<11 : replace by 13
-                        strNetworkType = "4G";
-                        break;
-                    default:
-                        // http://baike.baidu.com/item/TD-SCDMA 中国移动 联通 电信 三种3G制式
-                        if (_strSubTypeName.equalsIgnoreCase("TD-SCDMA") || _strSubTypeName.equalsIgnoreCase("WCDMA") || _strSubTypeName.equalsIgnoreCase("CDMA2000"))
-                        {
-                            strNetworkType = "3G";
-                        }
-                        else
-                        {
-                            strNetworkType = _strSubTypeName;
-                        }
+        return root;
+    }
 
-                        break;
+    public static boolean RootCommand(String command) {
+
+        Process process = null;
+        DataOutputStream os = null;
+
+        try {
+
+            process = Runtime.getRuntime().exec("su");
+            os = new DataOutputStream(process.getOutputStream());
+            os.writeBytes(command + "\n");
+            os.writeBytes("exit\n");
+            os.flush();
+            process.waitFor();
+
+        } catch (Exception e) {
+            Log.d("*** DEBUG ***", "ROOT REE" + e.getMessage());
+            return false;
+
+        } finally {
+
+            try {
+                if (os != null) {
+                    os.close();
                 }
-
-                Log.e("cocos2d-x", "Network getSubtype : " + Integer.valueOf(networkType).toString());
+                process.destroy();
+            } catch (Exception e) {
             }
         }
 
-        Log.e("cocos2d-x", "Network Type : " + strNetworkType);
+        Log.d("*** DEBUG ***", "Root SUC ");
+        return true;
 
-        return strNetworkType;
     }
+
 }

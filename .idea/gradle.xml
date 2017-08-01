@@ -8,10 +8,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/compoundButtonView自定义控件属性" />
             <option value="$PROJECT_DIR$/demo1" />
             <option value="$PROJECT_DIR$/demo2" />
-            <option value="$PROJECT_DIR$/swipe" />
+            <option value="$PROJECT_DIR$/myview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

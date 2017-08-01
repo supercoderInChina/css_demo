@@ -1,2 +1,1 @@
-include ':demo1', ':demo2', 'swipe'
-include ':compoundButtonView自定义控件属性'
+include ':demo1', ':demo2', ':myview'
